@@ -10,17 +10,28 @@
 
 ```javascript
 const matt = {
-  role: "Fullstack Developer",
-  code: [JavaScript, TypeScript, "HTML", "CSS", Ruby, Python, Java,"C++", PHP],
-  tools: [React, "Redux", "Node.js", Styled-Components, "Jest", Docker, "Postman", Figma, AWS, ".NET"],
-  architecture: [full-stack web apps, REST & GraphQL APIs, "component-driven design"],
-  techCommunities: {
-    contributor: "Open Source Projects",
-    participant: "Tech Meetups & Hackathons",
-    supporter: "Developer Education Initiatives"
-  },
-  currentFocus: Building React + TypeScript projects and contributing to open source
-}
+    role: Fullstack Developer,
+    code: [JavaScript, "TypeScript", Python, "Ruby", "Java", "C++", PHP],
+    askMeAbout: ["web development", "cloud computing", "UI/UX", "tech trends"],
+    technologies: {
+        frontEnd: {
+            js: [React, "Next.js"],
+            css: [Tailwind CSS, "Sass", "Bootstrap"],
+            uiLibraries: ["Storybook", Styled-Components, "Material UI"],
+        },
+        backEnd: {
+            js: ["Node.js", Express],
+            ruby: ["Ruby on Rails"],
+            python: [Flask],
+        },
+        devOps: [Docker, "CI/CD", "Nginx", "GitHub Actions", "Postman"],
+        cloudServices: {
+            aws: ["AWS EC2", "S3", "Lambda", "RDS", CloudWatch],
+        },
+        databases: [PostgreSQL, "MySQL", "SQLite", "Firebase", "Redis"],
+        misc: [Socket.IO, "REST APIs", WebSockets],
+        generativeAI: ["GPT", "Vectorization"],
+};
 ```
 
 ### 🧰 Languages and Tools
