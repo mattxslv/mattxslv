@@ -26,7 +26,7 @@ const matt = {
         },
         devOps: [Docker, "CI/CD", "Nginx", "GitHub Actions", "Postman"],
         cloudServices: {
-            aws: ["AWS EC2", "S3", "Lambda", "RDS", CloudWatch],
+            aws: ["AWS EC2", "S3", "GCP"],
         },
         databases: [PostgreSQL, "MySQL", "SQLite", "Firebase", "Redis"],
         misc: [Socket.IO, "REST APIs", WebSockets],
