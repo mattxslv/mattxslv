@@ -24,13 +24,13 @@ const matt = {
             ruby: ["Ruby on Rails"],
             python: [Flask],
         },
-        devOps: [Docker, "CI/CD", "Nginx", "GitHub Actions", "Postman"],
+        devOps: [Docker, "CI/CD", "Nginx", "Cloudflare", "Google Cloud"],
         cloudServices: {
             aws: ["AWS EC2", "S3", "GCP"],
         },
-        databases: [PostgreSQL, "MySQL", "SQLite", "Firebase", "Redis"],
+        databases: [PostgreSQL, "MySQL", "SQLite"],
         misc: [Socket.IO, "REST APIs", WebSockets],
-        generativeAI: ["GPT", "Vectorization"],
+        generativeAI: ["Claude", "Anthropic"],
 };
 ```
 
